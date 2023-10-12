@@ -8,10 +8,10 @@
 html{
     scroll-behavior: smooth;
 }
-.parent{
+/* .parent{
     scroll-behavior: smooth;
-    position: sticky;
-}
+    position: sticky; 
+/* } */
 .parent .hero{
     width: 100%;
     height: 100vh;
