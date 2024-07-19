@@ -1,215 +1,213 @@
-*{
+* {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
-.hero{
+
+.hero {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100vh;
-    /* background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)); */
     position: relative;
-     padding: 0 5%; 
-    /* display: flex; 
-     align-items: center; */
-    justify-content: center; 
+    padding: 0 5%;
+    justify-content: center;
     background: url();
     background-size: cover;
 }
-.hero video{
+
+.hero video {
     position: fixed;
     top: 0;
     left: 0;
-    /* right: 0;
-    bottom: 0;  */
     z-index: -1;
     width: 100%;
     height: auto;
-
 }
- .hero nav{
+
+.hero nav {
     width: 100%;
     position: relative;
     top: 0;
     left: 0;
     padding: 20px 2%;
     display: flex;
-     /* align-items: center;
-    justify-content: center;  */
-justify-content: space-between;
+    justify-content: space-between;
 }
 
-.hero nav ul li{
-list-style: none;
-display: inline-block;
-margin-left: 40px;
+.hero nav ul {
+    display: flex;
+    align-items: center;
 }
-.hero nav ul li a{
+
+.hero nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.hero nav ul li a {
     text-decoration: none;
-    color:white;
+    color: white;
     font-size: 20px;
     font-variant: normal;
     transition: all .3s ease;
     scroll-behavior: smooth;
-
 }
-.hero nav ul li a:hover{
+
+.hero nav ul li a:hover {
     color: chartreuse;
     text-decoration: underline;
     transform: scale(1.1);
 }
-.content{
+
+.content {
     text-align: center;
 }
-.content h1{
+
+.content h1 {
     margin-top: 50px;
     font-size: 150px;
-    color:orangered;
+    color: orangered;
     font-weight: 600;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-
 }
-.content h1 span{
+
+.content h1 span {
     margin-top: 20px;
     font-family: 'Times New Roman', Times, serif;
-    color:rgb(15, 182, 237);
+    color: rgb(15, 182, 237);
 }
+
 .content p {
     color: white;
-    margin-top:130px;
+    margin-top: 130px;
     font-size: 40px;
     font-style: italic;
 }
-.content #btn{
+
+.content #btn {
     margin-top: 25px;
     border-radius: 10px;
     background-color: aqua;
     transition: all 0.5s;
 }
-.content #btn:hover{
+
+.content #btn:hover {
     background-color: red;
     color: white;
     transform: scale(1.1);
 }
-/* places */
 
-.smain .head h1{
-
+.smain .head h1 {
     color: aliceblue;
-    background-color:transparent;
+    background-color: transparent;
     font-size: 70px;
-    margin-left: 20PX;
+    margin-left: 20px;
 }
-.smain{
+
+.smain {
     margin-top: -1px;
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100vh;
-   
-    background:rgba(0,0,0,0.7) url(./pexels-quang-nguyen-vinh-2166711.jpg);
+    background: rgba(0,0,0,0.7) url(./pexels-quang-nguyen-vinh-2166711.jpg);
     background-size: cover;
     background-blend-mode: darken;
-    
-   
-}
-.smain .reason{
-    margin-top: 5px;
-    margin-left: 18%;
-    color:rgb(60,81,150);
 }
 
-.smain .carousel{
-    width:53%;
-    height:fit-content ;
+.smain .reason {
+    margin-top: 5px;
+    margin-left: 18%;
+    color: rgb(60,81,150);
+}
+
+.smain .carousel {
+    width: 53%;
+    height: fit-content;
     margin-top: 5px;
     justify-content: center;
     align-items: center;
     margin-left: 22%;
     background: transparent;
-     opacity: 100;
-    
- transition-property:opacity;
+    opacity: 100;
+    transition-property: opacity;
     transition-duration: .6s;
-  
 }
-.smain .carousel img{
+
+.smain .carousel img {
     max-width: 100%;
     background-size: 100% 100%;
 }
 
-
-/* cuisines */
-.cuisines{
+.cuisines {
     width: 100%;
     height: 100vh;
-background:linear-gradient(to top,#638d8d 30%, #87a082 73%);;
-align-content: center;
-align-items: center;
+    background: linear-gradient(to top, #638d8d 30%, #87a082 73%);
+    align-content: center;
+    align-items: center;
 }
-.cuisines h1{
-    color: aliceblue;
-    background-color:transparent;
-    font-size: 70px;
-    margin-left: 20PX;
 
+.cuisines h1 {
+    color: aliceblue;
+    background-color: transparent;
+    font-size: 70px;
+    margin-left: 20px;
 }
-.cuisines .food{
+
+.cuisines .food {
     width: 80%;
     height: 80vh;
-    background:  linear-gradient(to bottom, #859e81,#4480a2);
+    background: linear-gradient(to bottom, #859e81, #4480a2);
     display: flex;
-margin-left: 150px;
+    margin-left: 150px;
 }
-.cuisines .food .item{
+
+.cuisines .food .item {
     border: 2px solid white;
-    width:25% ;
+    width: 25%;
     height: 60vh;
     margin: 13px;
-    margin-top:80px;
+    margin-top: 80px;
     text-align: center;
     background-color: aliceblue;
-    border-radius:10px ;
+    border-radius: 10px;
     transition: all 0.3s;
     margin-left: 73px;
-
 }
-.cuisines .food .item:hover{
-    
+
+.cuisines .food .item:hover {
     transform: scale(1.1);
-
-   box-shadow: 7.8px 7.8px 7.8px rgb(66, 63, 63);
-   background-color: #91fbed;
+    box-shadow: 7.8px 7.8px 7.8px rgb(66, 63, 63);
+    background-color: #91fbed;
 }
-.cuisines .food .item .iimg img{
+
+.cuisines .food .item .iimg img {
     width: 100%;
     height: fit-content;
     border-radius: 10px 10px 0px 0px;
 }
-.cuisines .food .item .ibody h2{
+
+.cuisines .food .item .ibody h2 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-
 }
-.cuisines .food .item .ibody p{
+
+.cuisines .food .item .ibody p {
     text-align: justify;
     margin-bottom: 10px;
     padding: 5px;
-
-
 }
-.cuisines .food .item .btn{
 
+.cuisines .food .item .btn {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    position: relative; 
-    
-
+    position: relative;
 }
-.cuisines .food .item .btn button{
+
+.cuisines .food .item .btn button {
     width: 150px;
     background: black;
     color: white;
@@ -220,146 +218,188 @@ margin-left: 150px;
     cursor: pointer;
     margin-bottom: 10px;
     transition: all 0.3s;
-    
 }
-.cuisines .food .item .btn button:hover{
+
+.cuisines .food .item .btn button:hover {
     background-color: white;
     color: black;
     border: 2px solid black;
     transform: scaleX(1.1);
-
 }
+
 .cuisines .mbtn {
     align-items: center;
     margin-left: 48%;
     margin-top: 10px;
-
 }
-.cuisines .mbtn button{
-    background-color: #87a082 ;
+
+.cuisines .mbtn button {
+    background-color: #87a082;
     color: white;
     border-radius: 10px;
     transition: all 0.3s;
     padding: 15px;
 }
-.cuisines .mbtn button:hover{
+
+.cuisines .mbtn button:hover {
     background-color: #91fbed;
     color: orange;
-transform: scaleX(1.1);
-
+    transform: scaleX(1.1);
 }
-/* footer */
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 60vh;
     background-color: black;
 }
-.footer .links{
+
+.footer .links {
     flex-basis: 37%;
-height: 50vh;
+    height: 50vh;
     margin-left: 70px;
     margin-top: 10px;
-    
-
 }
-.footer .links ul .menu-item{
+
+.footer .links ul .menu-item {
     display: inline-block;
     margin: 0 10px 0 0;
 }
-.footer .links h3{
+
+.footer .links h3 {
     margin-top: 100px;
     margin-left: 10px;
     color: #91fbed;
 }
-.footer .links .menu i{
+
+.footer .links .menu i {
     color: red;
     margin-left: 15px;
     margin-right: 10px;
     font-size: 45px;
-
 }
-.footer .links .menu a{
+
+.footer .links .menu a {
     text-decoration: none;
-    color:antiquewhite;
+    color: antiquewhite;
     font-size: 35px;
     margin-left: 15px;
-    margin-right:15px ;
+    margin-right: 15px;
     margin-top: 35px;
     display: inline-block;
     transition: transform 0.5s;
 }
-.footer .links .menu a:hover{
+
+.footer .links .menu a:hover {
     transform: scale(1.1);
 }
-.footer .links .copyright{
+
+.footer .links .copyright {
     margin-top: 30%;
     color: white;
 }
-.footer .links .copyright span{
+
+.footer .links .copyright span {
     color: orangered;
 }
-.footer .infm{
+
+.footer .infm {
     flex-basis: 64%;
     height: 50vh;
-
-
 }
-.footer .infm .wow{
+
+.footer .infm .wow {
     display: flex;
     margin-top: 100px;
     margin-left: 150px;
 }
-.footer .infm .wow h4{
+
+.footer .infm .wow h4 {
     color: coral;
     margin-left: 33px;
 }
-.footer .infm .wow a{
+
+.footer .infm .wow a {
     text-decoration: none;
     transition: all 0.3s;
 }
-.footer .infm .wow a:hover{
+
+.footer .infm .wow a:hover {
     color: red;
-
 }
-.footer .infm .wow .order1,.order2,.order3 ul{
+
+.footer .infm .wow .order1,
+.footer .infm .wow .order2,
+.footer .infm .wow .order3 ul {
     text-align: left;
 }
 
-.footer .infm .wow .order1 ul li{
+.footer .infm .wow .order1 ul li,
+.footer .infm .wow .order2 ul li,
+.footer .infm .wow .order3 ul li {
     text-decoration: none;
     margin-top: 20px;
     color: white;
     text-align: left;
     list-style-type: none;
-
 }
-.footer .infm .wow .order2 ul li{
-    text-decoration: none;
-    margin-top: 20px;
-    color: white;
-    text-align: left;
-    list-style-type: none;
 
-}
-.footer .infm .wow .order3 ul li{
-    text-decoration: none;
-    margin-top: 20px;
-    color: white;
-    text-align: left;
-    list-style-type: none;
-
-}
-.footer .infm .wow .order2{
-    margin-left: 60px;
-    
-
-}
-.footer .infm .wow .order3{
+.footer .infm .wow .order2 {
     margin-left: 60px;
 }
 
+.footer .infm .wow .order3 {
+    margin-left: 60px;
+}
 
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero nav ul li {
+        margin-left: 20px;
+    }
 
+    .hero nav ul li a {
+        font-size: 16px;
+    }
 
+    .content h1 {
+        font-size: 60px;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+
+    .smain .head h1 {
+        font-size: 40px;
+    }
+
+    .smain .carousel {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .cuisines h1 {
+        font-size: 40px;
+    }
+
+    .cuisines .food {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .cuisines .food .item {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .footer .links
